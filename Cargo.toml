@@ -8,3 +8,8 @@ edition = "2018"
 
 [dependencies]
 clap = {version = "~2.33.3", features = ["yaml"]}
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+tokio = { version = "1", features = ["full"] }
+select = "*"
+scraper = "*"
+prettytable-rs = "*"
